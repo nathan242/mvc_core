@@ -1,0 +1,9 @@
+<!doctype html>
+  <head>
+    <title>Test Page</title>
+  </head>
+  <body>
+    <p>DATA:</p>
+    <?php echo '<pre>'.print_r($data,1).'</pre>'; ?>
+  </body>
+</html>
